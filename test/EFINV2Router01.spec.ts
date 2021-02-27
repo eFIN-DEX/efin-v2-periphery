@@ -518,7 +518,7 @@ describe('EFINV2Router{01,02}', () => {
           expect(receipt.gasUsed).to.eq(
             {
               [RouterVersion.EFINV2Router01]: 139222,
-              [RouterVersion.EFINV2Router02]: 109222
+              [RouterVersion.EFINV2Router02]: 139222
             }[routerVersion as RouterVersion]
           )
         }).retries(3)
