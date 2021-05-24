@@ -25,10 +25,10 @@ configPerNetwork.set(
 configPerNetwork.set(
   'mainnet',
   buildConf(
-    '0x0', // Router
-    '0x0', // Factory
-    '0x0', // BNB
-    '0x0', // GetBytecode
+    '0x61812aa9F34dd218913adb285E56592dA19a411a', // Router
+    '0x3b5238312DcBb5ADEdA7470109e60c39CF9ad406', // Factory
+    '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', // BNB
+    '0xba5060bb7d8f2c95e85e0e8a580390ff7bccccd895254636d87d526c1753fcd3', // GetBytecode
     '6000000', // Gas limit
   )
 );
